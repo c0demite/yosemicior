@@ -592,21 +592,113 @@ video {
   }
 }
 
+.fixed {
+  position: fixed;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.bottom-0 {
+  bottom: 0px;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
+}
+
+.mt-\[320px\] {
+  margin-top: 320px;
 }
 
 .mt-8 {
   margin-top: 2rem;
 }
 
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
+.mb-1 {
+  margin-bottom: 0.25rem;
+}
+
+.mt-1 {
+  margin-top: 0.25rem;
+}
+
 .flex {
   display: flex;
 }
 
+.h-\[240px\] {
+  height: 240px;
+}
+
+.h-\[\] {
+  height: ;
+}
+
+.h-\[1\] {
+  height: 1;
+}
+
+.h-\[19\] {
+  height: 19;
+}
+
+.h-\[1920\] {
+  height: 1920;
+}
+
+.h-\[1920p\] {
+  height: 1920p;
+}
+
+.h-\[1920px\] {
+  height: 1920px;
+}
+
+.h-\[120px\] {
+  height: 120px;
+}
+
+.h-\[1020px\] {
+  height: 1020px;
+}
+
+.h-\[100px\] {
+  height: 100px;
+}
+
+.h-\[1080px\] {
+  height: 1080px;
+}
+
+.h-\[1000px\] {
+  height: 1000px;
+}
+
+.w-\[90px\] {
+  width: 90px;
+}
+
+.w-\[400px\] {
+  width: 400px;
+}
+
 .w-\[110px\] {
   width: 110px;
+}
+
+.w-\[100\%\] {
+  width: 100%;
 }
 
 .items-center {
@@ -617,10 +709,24 @@ video {
   justify-content: center;
 }
 
+.justify-around {
+  justify-content: space-around;
+}
+
+.space-x-5 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1.25rem * var(--tw-space-x-reverse));
+  margin-left: calc(1.25rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
 .space-x-3 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(0.75rem * var(--tw-space-x-reverse));
   margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.rounded-full {
+  border-radius: 9999px;
 }
 
 .rounded-\[100px\] {
@@ -630,6 +736,45 @@ video {
 .bg-\[\#222222\] {
   --tw-bg-opacity: 1;
   background-color: rgb(34 34 34 / var(--tw-bg-opacity));
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-gray-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(17 24 39 / var(--tw-bg-opacity));
+}
+
+.bg-gray-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(31 41 55 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#141414\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(20 20 20 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#14141414\] {
+  background-color: #14141414;
+}
+
+.bg-\[\#151414\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(21 20 20 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#151514\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(21 21 20 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#151515\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(21 21 21 / var(--tw-bg-opacity));
 }
 
 .bg-gradient-to-r {
@@ -646,6 +791,53 @@ video {
   --tw-gradient-to: #d946ef;
 }
 
+.p-\[\] {
+  padding: ;
+}
+
+.p-\[1\] {
+  padding: 1;
+}
+
+.p-\[10\] {
+  padding: 10;
+}
+
+.p-\[10x\] {
+  padding: 10x;
+}
+
+.p-\[10xp\] {
+  padding: 10xp;
+}
+
+.p-\[10p\] {
+  padding: 10p;
+}
+
+.p-\[10px\] {
+  padding: 10px;
+}
+
+.p-11 {
+  padding: 2.75rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -656,6 +848,165 @@ video {
   padding-right: 1rem;
 }
 
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.px-1 {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
+.py-11 {
+  padding-top: 2.75rem;
+  padding-bottom: 2.75rem;
+}
+
+.px-11 {
+  padding-left: 2.75rem;
+  padding-right: 2.75rem;
+}
+
+.px-\[\] {
+  padding-left: ;
+  padding-right: ;
+}
+
+.px-\[1\] {
+  padding-left: 1;
+  padding-right: 1;
+}
+
+.px-\[19\] {
+  padding-left: 19;
+  padding-right: 19;
+}
+
+.px-\[10\] {
+  padding-left: 10;
+  padding-right: 10;
+}
+
+.px-\[100\] {
+  padding-left: 100;
+  padding-right: 100;
+}
+
+.px-\[100\%\] {
+  padding-left: 100%;
+  padding-right: 100%;
+}
+
+.px-\[10\%\] {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.px-\[0\%\] {
+  padding-left: 0%;
+  padding-right: 0%;
+}
+
+.px-\[40\%\] {
+  padding-left: 40%;
+  padding-right: 40%;
+}
+
+.px-\[50\%\] {
+  padding-left: 50%;
+  padding-right: 50%;
+}
+
+.px-\[4\%\] {
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+.px-\[45\%\] {
+  padding-left: 45%;
+  padding-right: 45%;
+}
+
+.px-\[46\%\] {
+  padding-left: 46%;
+  padding-right: 46%;
+}
+
+.px-\[47\%\] {
+  padding-left: 47%;
+  padding-right: 47%;
+}
+
+.px-\[46\.\%\] {
+  padding-left: 46.%;
+  padding-right: 46.%;
+}
+
+.px-\[46\.5\%\] {
+  padding-left: 46.5%;
+  padding-right: 46.5%;
+}
+
+.px-\[46\.7\%\] {
+  padding-left: 46.7%;
+  padding-right: 46.7%;
+}
+
+.px-\[46\.8\%\] {
+  padding-left: 46.8%;
+  padding-right: 46.8%;
+}
+
+.px-\[46\.9\%\] {
+  padding-left: 46.9%;
+  padding-right: 46.9%;
+}
+
+.px-\[46\.91\%\] {
+  padding-left: 46.91%;
+  padding-right: 46.91%;
+}
+
+.px-\[46\.99\%\] {
+  padding-left: 46.99%;
+  padding-right: 46.99%;
+}
+
+.px-\[1000\] {
+  padding-left: 1000;
+  padding-right: 1000;
+}
+
+.px-\[1000p\] {
+  padding-left: 1000p;
+  padding-right: 1000p;
+}
+
+.px-\[1000px\] {
+  padding-left: 1000px;
+  padding-right: 1000px;
+}
+
+.px-\[100px\] {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.px-\[100\%px\] {
+  padding-left: 100%px;
+  padding-right: 100%px;
+}
+
+.px-\[100\%p\] {
+  padding-left: 100%p;
+  padding-right: 100%p;
+}
+
+.text-center {
+  text-align: center;
+}
+
 .font-bot {
   font-family: Poppins, sans-serif;
 }
@@ -663,6 +1014,11 @@ video {
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .text-2xl {
@@ -687,20 +1043,15 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.text-violet-800 {
-  --tw-text-opacity: 1;
-  color: rgb(91 33 182 / var(--tw-text-opacity));
-}
-
-.text-fuchsia-500 {
-  --tw-text-opacity: 1;
-  color: rgb(217 70 239 / var(--tw-text-opacity));
-}
-
 .transition-all {
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
+}
+
+.hover\:px-4:hover {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .hover\:px-5:hover {
