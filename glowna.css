@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+body{
+    background: #000000;
+}
+
+nav img{
+    filter: invert(1);
+    width: 200px;
+    cursor: pointer;
+    -webkit-filter: invert(1);
+}
+nav{
+   display: flex;
+   justify-content: space-around;
+   background: black;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    list-style: none;
+}
+nav a{
+   color: white;
+   font-size: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.lista1, .lista2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lista1 a::after {
+    content: '';
+    display: block;
+    width: 0;
+    margin-top: 5px;
+    height: 2px;
+    background: white;
+    transition: width 0.5s;
+
+}
+
+.lista1 a:hover::after {
+    width: 100%;
+    transition: width 0.5s;
+
+}
+.lista2 a::after {
+    content: '';
+    display: block;
+    width: 0;
+    margin-top: 5px;
+    height: 2px;
+    background: white;
+    transition: width 0.5s;
+
+}
+
+.lista2 a:hover::after {
+    width: 100%;
+    transition: width 0.5s;
+
+}
+
+section .baba{
+     width: 1920px;
+     filter: blur(5px);
+}
+
+section .tekstbox{
+    width: 1920px;
+    position: absolute;
+    top: 300px;
+}
+section .tekst{
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    color: white;
+    text-shadow: 0 0 5px black;
+    
+}
+section p{
+    cursor: default;
+
+    font-size: 50px;
+}
+section h1{
+    cursor: pointer;
+
+    font-size: 250px;
+    font-weight: 300;
+}
+section .est{
+    margin-top: -30px;
+}
+
+main{
+    overflow-y: hidden;
+    top: 975px;
+    position: absolute;
+    height: 1000px;
+    width: 1920px;
+    background: black;
+}
+main .zdjecia{
+    margin-top: -100px;
+    display: flex;
+}
+main img{
+    width: 1010px;
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+main img:hover{
+    filter: blur(5px);
+    transition: 0.5s;
+}
+main h2{
+    position: absolute;
+    z-index: 1;
+    top: 500px;
+    color: white;
+    text-shadow: 0 0 5px black;
+    font-size: 100px;
+    cursor: pointer;
+
+}
+main .plec{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    position: absolute;
+    top: 1950px;
+    height: 430px;
+    width: 1920px;
+    background: black;
+    color: white;
+}
+
+
+.stopka p{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.stopka i{
+    font-size: 20px;
+}
+.stopkacontent{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.pcontent p{
+    cursor: pointer;
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 15px;
+}

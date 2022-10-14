@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+body{
+    background: #000000;
+}
+
+nav img{
+    filter: invert(1);
+    width: 200px;
+    cursor: pointer;
+    -webkit-filter: invert(1);
+}
+nav{
+   display: flex;
+   justify-content: space-around;
+   background: black;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    list-style: none;
+}
+nav a{
+   color: white;
+   font-size: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.lista1, .lista2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lista1 a::after {
+    content: '';
+    display: block;
+    width: 0;
+    margin-top: 5px;
+    height: 2px;
+    background: white;
+    transition: width 0.5s;
+
+}
+
+.lista1 a:hover::after {
+    width: 100%;
+    transition: width 0.5s;
+
+}
+.lista2 a::after {
+    content: '';
+    display: block;
+    width: 0;
+    margin-top: 5px;
+    height: 2px;
+    background: white;
+    transition: width 0.5s;
+
+}
+
+.lista2 a:hover::after {
+    width: 100%;
+    transition: width 0.5s;
+
+}
+.jesienzima{
+    overflow-y: hidden;
+    height: 1015px;
+}
+.jesienzima .baba{
+    width: 1920px;
+    transition: 0.5s;
+    margin-bottom: -30px;
+    filter: blur(5px);
+
+}
+.jesienzima .baba:hover{
+    filter: blur(0px);
+    transition: 0.5s;
+
+}
+
+.jesienzima .tekstbox{
+   width: 1920px;
+   position: absolute;
+   top: 300px;
+   margin-top: 100px;
+
+}
+.jesienzima .tekst{
+   text-align: center;
+   color: white;
+   text-shadow: 0 0 5px black;
+   
+}
+.jesienzima p{
+
+   cursor: default;
+   font-size: 50px;
+}
+.jesienzima h1{
+   cursor: pointer;
+   font-size: 150px;
+   font-weight: 500;
+}
+
+
+.wiosnalato{
+    overflow-y: hidden;
+    height: 1015px;
+}
+.wiosnalato .baba{
+    width: 1920px;
+    transition: 0.5s;
+    margin-bottom: 30px;
+    filter: blur(5px);
+
+}
+.wiosnalato .baba:hover{
+    filter: blur(0px);
+    transition: 0.5s;
+
+}
+
+.wiosnalato .tekstbox{
+   width: 1920px;
+   position: absolute;
+   top: 1400px;
+   margin-top: 100px;
+
+}
+.wiosnalato .tekst{
+   text-align: center;
+   color: white;
+   text-shadow: 0 0 5px black;
+   
+}
+.wiosnalato p{
+
+   cursor: default;
+   font-size: 50px;
+}
+.wiosnalato h1{
+   cursor: pointer;
+   font-size: 150px;
+   font-weight: 500;
+}
+
+
+
+
+footer{
+    position: absolute;
+    top: 1940x;
+    height: 430px;
+    width: 1920px;
+    background: black;
+    color: white;
+}
+
+
+.stopka p{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.stopka i{
+    font-size: 20px;
+}
+.stopkacontent{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.pcontent p{
+    cursor: pointer;
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 15px;
+}
